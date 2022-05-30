@@ -3,19 +3,19 @@
     padding:0;
     box-sizing: border-box;
 }
-
+    /* body color */
 body {
     background: #F5F5F5;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+    /* header img and position */
 header {
    background-image: url('../images/Tracks.JPG');
    background-size: cover;
    height: 40vh;
    background-position: 50% 50%;
 }
-
+    /* h1 css */
 h1 {
     color: #f2f4f7;
     position: absolute;
@@ -24,7 +24,7 @@ h1 {
     top: 17px;
     font-size: 75px;
   }
-
+  /* nav adjustment */
 nav {
     width: 95%;
     height: 35px;
@@ -34,10 +34,12 @@ nav {
     right: 100px;
     font-size: 25px;
 }
-
+    /* a color */
 a {
     color: #f2f4f7;
 }
+
+    /* h2 positioning and color */
 h2 {
     color: black;
     position: absolute;
@@ -45,6 +47,7 @@ h2 {
    margin: 50px;
 }
 
+    /* div adjustments */
 div {
     background-color: lightgrey;
     width: 400px;
@@ -55,27 +58,47 @@ div {
     top: 0px;
     left: 775px;
 }
+    /* aside img adjustments */
 aside img {
     background-size: cover;
-    position: relative;
+    position: absolute;
     height: 40vh;
-    bottom: 945px;
-    display: block;
+    bottom: 45px;
+    display: table-column-group;
     margin: 1rem;
-
 }
+    /* img one css */
 #img-one {
     position: none;
+    top: 257px;
     left: 110px;
 }
 
+    /* img two css */
 #img-two {
     position: none;
+    top: 525px;
     left: 110px;
     height: 40%;
-    width:  22%;
+    width: 23%;
 }
 
+    /* img three css */
+#img-three{
+    position: none;
+    top: 800px;
+    left: 110px;
+    width: 318px;
+}
+
+    /* img four css */
+#img-four{
+    position: none;
+    width: 318px;
+    top: 1070px;
+    left: 110px;
+}
+    /* footer placement */
 footer {
     text-align: center;
     padding: 5px;
