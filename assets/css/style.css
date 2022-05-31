@@ -41,23 +41,36 @@ a {
 
     /* h2 positioning and color */
 h2 {
+    font-size: 24px;
     color: black;
     position: absolute;
-    left: 500px;
+    left: 600px;
    margin: 50px;
 }
 
     /* div adjustments */
-div {
-    background-color: lightgrey;
-    width: 400px;
-    border: 10px solid #383c54;
-    padding: 30px;
-    margin: 20px;
-    position: relative;
-    top: 0px;
-    left: 775px;
+div {  width: 400px;
+    border: 15px solid rgb(6, 56, 60);
+    padding: 50px;
+    margin: 15px;
+    display: block;
+    margin-left: auto;
+ margin-right: 60px;
+
 }
+    /* background-color: rgb(211, 35, 35);
+    width: 400px; */
+    /* border-style: solid #0e27b5; */
+    /* border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-top: 2px; */
+    /* padding: 30px;
+    margin: 20px;
+    position: relative; */
+    /* top: 0px; */
+    /* left: 775px; */
+/* } */
     /* aside img adjustments */
 aside img {
     background-size: cover;
